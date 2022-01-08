@@ -33,12 +33,14 @@ nav{
     background-position:center;
     height: 570px;
     position: relative;
+    margin-bottom: 80px;
 }
 .background{
     position: absolute;
     top: 50%;
     left:50%;
     transform: translate(-50%, -50%) ;
+    
 }
 .home-title{
     font-family: 'Inter', sans-serif;
@@ -51,4 +53,24 @@ nav{
     color: #FFFFFF;
     text-align: center;
     
+}
+.section-2-title{
+    font-family: 'Inter', sans-serif;
+    color: #8D8D8D;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+}
+.section-2-title-2{
+    color: #1A1A1B;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    margin-bottom: 50px;
+
+}
+.section-2-text{
+    color: #8D8D8D;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    width: 240px;
 }
