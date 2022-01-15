@@ -1,213 +1,236 @@
 /* font-family: 'Inter', sans-serif;
 font-family: 'Raleway', sans-serif; */
-.container{
-    width: 1170px;
-    margin: 0 auto;
-    
-
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 25px;
+.header {
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.logo{
-    width: 135px;
-    margin-top: 30px;
+.nav-ul {
+  display: flex;
 }
-.navigation{
-    width: 500px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
+.nav-ul > li:not(:last-child) {
+  margin-right: 50px;
 }
-.navbar{
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    color:#303134;
-    text-transform: uppercase;
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.logo {
+  width: 135px;
+  margin-top: 30px;
+}
+.navigation {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.navbar {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: #303134;
+  text-transform: uppercase;
+}
+.burgerbar {
+  display: none;
 }
 /* section */
-.section-1{
-    background-image: url("../image/test.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-    height: 570px;
-    position: relative;
-    margin-bottom: 80px;
-}
-.background{
-    position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%, -50%) ;
-    
-}
-.home-title{
-    font-family: 'Inter', sans-serif;
-    font-size: 80px;
-    color: #FFFFFF;
-    margin-bottom: 50px;
-}
-.text-title{
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    color: #FFFFFF;
-    text-align: center;
-    
-}
-.section-2-title{
-    font-family: 'Inter', sans-serif;
-    color: #8D8D8D;
-    font-size: 16px;
-    text-transform: uppercase;
-    margin-bottom: 19px;
-}
-.section-2-title-2{
-    color: #1A1A1B;
-    font-family: 'Raleway', sans-serif;
-    font-size: 26px;
-    margin-bottom: 50px;
 
+.section-1 {
+  background-image: url("../image/test.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 570px;
+  position: relative;
+  margin-bottom: 80px;
 }
-.section-2-text{
-    color: #8D8D8D;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    width: 240px;
-    margin-right: 70px;
-    line-height: 1.8;
+.background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.cards{
-    display: flex;
-    justify-content: space-between;
-    
+.home-title {
+  font-family: "Inter", sans-serif;
+  font-size: 80px;
+  color: #ffffff;
+  margin-bottom: 50px;
 }
-.top-card{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
+.text-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
 }
-.bottom-card{
-    display: flex;
-    justify-content: space-between;
-    
+.cards {
+  max-width: 870px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-.left-card-img-1{
-    width: 268;
-    margin-bottom: 20px;
-    margin-right: 25px;
-}
-.left-card-title-1{
-    font-size: 18px;
-    font-family: 'Raleway', sans-serif;
-    color:#1A1A1B ;
-    margin-bottom: 20px;
 
+.card {
+  width: 270px;
+  margin-bottom: 20px;
 }
-.left-card-text-1{
-    font-family: 'Raleway', sans-serif;
-    color: #8D8D8D;
-    font-size: 16px;
-    width: 268px;
-    line-height: 1.8;
-}
-.middle-card-img-1{
-    width: 268;
-    margin-bottom: 20px;
-    margin-right: 25px;
-}
-.middle-card-title-1{
-    font-size: 18px;
-    font-family: 'Raleway', sans-serif;
-    color:#1A1A1B ;
-    margin-bottom: 20px;
 
+.card-head > img {
+  width: 100%;
 }
-.middle-card-text-1{
-    font-family: 'Raleway', sans-serif;
-    color: #8D8D8D;
-    font-size: 16px;
-    width: 268px;
-    line-height: 1.8;
+/* .s-2 {
+  display: flex;
+  justify-content: space-between;
 }
-.right-card-img-1{
-    width: 268;
-    margin-bottom: 20px;
-    margin-right: 25px;
+.titles {
+  width: 240px;
 }
-.right-card-title-1{
-    font-size: 18px;
-    font-family: 'Raleway', sans-serif;
-    color:#1A1A1B ;
-    margin-bottom: 20px;
 
+.section-2-title {
+  font-family: "Inter", sans-serif;
+  color: #8d8d8d;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 19px;
 }
-.right-card-text-1{
-    font-family: 'Raleway', sans-serif;
-    color: #8D8D8D;
-    font-size: 16px;
-    width: 268px;
-    line-height: 1.8;
+.section-2-title-2 {
+  color: #1a1a1b;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  margin-bottom: 50px;
 }
-.wrapper{
-    width: 800px;
-    margin: 0 90px 0 395px;
+.section-2-text {
+  color: #8d8d8d;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  margin-right: 50px;
+  line-height: 1.8;
 }
-.left-card-img-2{
-    width: 268;
-    margin-bottom: 20px;
-    margin-right: 25px;
+.cards {
+  max-width: 870px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-.left-card-title-2{
-    font-size: 18px;
-    font-family: 'Raleway', sans-serif;
-    color:#1A1A1B ;
-    margin-bottom: 20px;
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
 }
-.left-card-text-2{
-    font-family: 'Raleway', sans-serif;
-    color: #8D8D8D;
-    font-size: 16px;
-    width: 268px;
-    line-height: 1.8;
+.left-card-img-1 {
+  width: 250px;
+  margin-bottom: 20px;
+  margin-right: 25px;
 }
-.middle-card-img-2{
-    width: 268;
-    margin-bottom: 20px;
-    margin-right: 25px;
+.left-card-title-1 {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  color: #1a1a1b;
+  margin-bottom: 20px;
 }
-.middle-card-title-2{
-    font-size: 18px;
-    font-family: 'Raleway', sans-serif;
-    color:#1A1A1B ;
-    margin-bottom: 20px;
-
+.left-card-text-1 {
+  font-family: "Raleway", sans-serif;
+  color: #8d8d8d;
+  font-size: 16px;
+  width: 268px;
+  line-height: 1.8;
 }
-.middle-card-text-2{
-    font-family: 'Raleway', sans-serif;
-    color: #8D8D8D;
-    font-size: 16px;
-    width: 268px;
-    line-height: 1.8;
+.middle-card-img-1 {
+  width: 250px;
+  margin-bottom: 20px;
+  margin-right: 25px;
 }
-.right-card-img-2{
-    width: 268;
-    margin-bottom: 20px;
-    margin-right: 25px;
+.middle-card-title-1 {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  color: #1a1a1b;
+  margin-bottom: 20px;
 }
-.right-card-title-2{
-    font-size: 18px;
-    font-family: 'Raleway', sans-serif;
-    color:#1A1A1B ;
-    margin-bottom: 20px;
-
+.middle-card-text-1 {
+  font-family: "Raleway", sans-serif;
+  color: #8d8d8d;
+  font-size: 16px;
+  width: 268px;
+  line-height: 1.8;
 }
-.right-card-text-2{
-    font-family: 'Raleway', sans-serif;
-    color: #8D8D8D;
-    font-size: 16px;
-    width: 268px;
-    line-height: 1.8;
+.right-card-img-1 {
+  width: 250px;
+  margin-bottom: 20px;
+  margin-right: 25px;
 }
+.right-card-title-1 {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  color: #1a1a1b;
+  margin-bottom: 20px;
+}
+.right-card-text-1 {
+  font-family: "Raleway", sans-serif;
+  color: #8d8d8d;
+  font-size: 16px;
+  width: 268px;
+  line-height: 1.8;
+}
+.left-card-img-2 {
+  width: 250px;
+  margin-bottom: 20px;
+  margin-right: 25px;
+}
+.left-card-title-2 {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  color: #1a1a1b;
+  margin-bottom: 20px;
+}
+.left-card-text-2 {
+  font-family: "Raleway", sans-serif;
+  color: #8d8d8d;
+  font-size: 16px;
+  width: 268px;
+  line-height: 1.8;
+}
+.middle-card-img-2 {
+  width: 250px;
+  margin-bottom: 20px;
+  margin-right: 25px;
+}
+.middle-card-title-2 {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  color: #1a1a1b;
+  margin-bottom: 20px;
+}
+.middle-card-text-2 {
+  font-family: "Raleway", sans-serif;
+  color: #8d8d8d;
+  font-size: 16px;
+  width: 268px;
+  line-height: 1.8;
+}
+.right-card-img-2 {
+  width: 268;
+  margin-bottom: 20px;
+  margin-right: 25px;
+}
+.right-card-title-2 {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  color: #1a1a1b;
+  margin-bottom: 20px;
+}
+.right-card-text-2 {
+  font-family: "Raleway", sans-serif;
+  color: #8d8d8d;
+  font-size: 16px;
+  width: 268px;
+  line-height: 1.8;
+} */
